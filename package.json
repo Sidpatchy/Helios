@@ -1,0 +1,38 @@
+{
+  "name": "helios",
+  "author": "Sidpatchy",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "suncalc": "^1.9.0"
+  },
+  "pebble": {
+    "displayName": "Helios",
+    "uuid": "0fd85145-d762-4875-99a5-3bc7bd22cb08",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "HELLO","REQ","ERROR","OFFSET","CENTER",
+      "DATE_M1","DAWN_M1","SUNRISE_M1","SUNSET_M1","DUSK_M1",
+      "DATE_0","DAWN_0","SUNRISE_0","SUNSET_0","DUSK_0",
+      "DATE_P1","DAWN_P1","SUNRISE_P1","SUNSET_P1","DUSK_P1",
+      "DATE","DAWN","SUNRISE","SUNSET","DUSK"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
