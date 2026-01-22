@@ -19,7 +19,8 @@
       "basalt",
       "chalk",
       "diorite",
-      "emery"
+      "emery",
+      "flint"
     ],
     "watchapp": {
       "watchface": false
@@ -32,7 +33,14 @@
       "DATE","DAWN","SUNRISE","SUNSET","DUSK"
     ],
     "resources": {
-      "media": []
+      "media": [
+        {
+          "menuIcon": true,
+          "type": "bitmap",
+          "name": "IMAGE_MENU_ICON",
+          "file": "Pebble_25x25_Day_separator.png"
+        }
+      ]
     }
   }
 }
